@@ -1,0 +1,20 @@
+title: "Modelo de Clasificación Binaria para la Predicción de Bancarrota Empresarial a partir de Estados Financieros: Dataset Taiwan Economic Journal"
+author: "Laura Rivera y Natalý Cárdenas — Universidad del Norte"
+logo: images/logo.png
+
+execute:
+  execute_notebooks: "off"   # ya tienen las salidas guardadas, no se re-ejecutan
+
+html:
+  extra_css:
+    - style/custom.css
+  use_repository_button: true
+
+repository:
+  url: https://github.com/lauraformore/BancarrotaEmpresarial_VIZ
+  branch: main
+
+sphinx:
+  extra_extensions:
+    - sphinx_design   # necesario para los ::::{grid} y :::{grid-item-card} de tu index.md
+    

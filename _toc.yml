@@ -2,4 +2,3 @@ format: jb-book
 root: index
 chapters:
   - file: EDA
-  - file: EDA (2)

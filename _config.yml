@@ -1,13 +1,10 @@
 title: "Modelo de Clasificación Binaria para la Predicción de Bancarrota Empresarial a partir de Estados Financieros: Dataset Taiwan Economic Journal"
-author: "Laura Rivera y Natalý Cárdenas — Universidad del Norte"
-logo: images/logo.png
+author: "Laura Rivera · Natalý Cárdenas — Universidad del Norte"
 
 execute:
   execute_notebooks: "off"   # ya tienen las salidas guardadas, no se re-ejecutan
 
 html:
-  extra_css:
-    - style/custom.css
   use_repository_button: true
 
 repository:
@@ -15,6 +12,10 @@ repository:
   branch: main
 
 sphinx:
+  config:
+    html_static_path: ["style"]
+    html_css_files: ["custom.css"]
   extra_extensions:
     - sphinx_design   # necesario para los ::::{grid} y :::{grid-item-card} de tu index.md
-    
+
+exclude_patterns: ["README.md"]
